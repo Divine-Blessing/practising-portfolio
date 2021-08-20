@@ -36,9 +36,9 @@ p{
 .cta{
     display: inline-block;
     padding: 10px 30px;
-    color: purple;
+    color: black;
     background-color: transparent;
-    border: 2px solid purple;
+    border: 2px solid black;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -56,7 +56,7 @@ p{
     color: white;
 }
 .brand h1 span{
-    color: purple;
+    color: rgb(98, 69, 126);
 }
 
 
@@ -243,9 +243,12 @@ p{
     left: 0;
     height: 100%;
     width: 0;
-    background-color: purple;
+    background-color: rgb(53, 42, 53);
     animation: text_reveal_box 1s ease;
     animation-delay: 1s;
+}
+#name .divine h1 span{
+    color: rgb(53, 42, 53);
 }
 #name h1:nth-child(1) span{
     animation-delay: 0.5s;
@@ -277,7 +280,7 @@ p{
     text-align: center;
 }
 #services .section-title span{
-    color: purple;
+    color: rgb(161, 57, 161);
 }
 #services .service-top{
     max-width: 500px;
@@ -533,7 +536,7 @@ p{
     
     @keyframes text_reveal_name{
         100%{
-            color: purple;
+            color: rgb(114, 76, 114);
             font-weight: 500;
         }
     }
